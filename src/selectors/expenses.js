@@ -1,5 +1,4 @@
 import moment from 'moment';
-
 export default (expenses, { text, sortBy, startDate, endDate }) => {
     return expenses.filter((expense) => {
         //Here we are having start and end date as timestamps. we compare it to the createdAt timestamp
