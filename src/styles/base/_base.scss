@@ -2,13 +2,15 @@
     box-sizing: border-box;
 }
 
-
 html {
     font-family: 62.5%;
 }
 
 body {
+    color: $dark-grey;
     font-family: Helvetica, Arial, sans-serif;
+    font-size: $s-size;
+    line-height: 1.6;
 }
 
 button {
@@ -22,4 +24,8 @@ button:disabled {
 
 .is-active {
     font-weight: bold;
+}
+
+.pull-right {
+    float: right;
 }

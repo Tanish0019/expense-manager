@@ -4,8 +4,12 @@ import { startLogin } from '../actions/auth';
 import { dispatch } from '../../node_modules/rxjs/internal/observable/pairs';
 
 export const LoginPage = ({ startLogin }) => (
-    <div>
-        <button onClick={startLogin}>Login</button>
+    <div className="box-layout">
+        <div className="box-layout__box">
+            <h1 className="box-layout__title">Expense Tracker App</h1>
+            <p>Managing your expenses has never been so easy</p>
+            <button onClick={startLogin} className="loginBtn loginBtn--google">Login with Google</button>
+        </div>
     </div>
 )
 

@@ -1,0 +1,19 @@
+.text-input {
+    color: rgb(51, 51, 51);
+    border: 1px solid #cacccd;
+    height: 48px;
+    border-radius: 2px;
+    border: 1px solid rgb(219, 219, 219);
+    font-size: $font-size-l;
+    font-weight: 300;
+    padding: $s-size;
+}
+
+.select {
+    @extend .text-input;
+}
+
+.textarea {
+    @extend .text-input;
+    height: 10rem;
+}
